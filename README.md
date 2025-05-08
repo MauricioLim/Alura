@@ -1,1 +1,2 @@
-Curso para aprendizado de PHP
+Curso para aprendizado de PHP  
+Cursos do Alura
