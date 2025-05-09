@@ -53,6 +53,7 @@
       <path value="$PROJECT_DIR$/buscador-cursos-alura/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/buscador-cursos-alura/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/buscador-cursos-alura/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/buscador-cursos-alura/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">

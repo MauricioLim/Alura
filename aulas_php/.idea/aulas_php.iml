@@ -45,6 +45,7 @@
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/squizlabs/php_codesniffer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
