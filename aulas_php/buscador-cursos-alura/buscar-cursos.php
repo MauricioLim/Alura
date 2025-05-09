@@ -19,5 +19,5 @@ $buscador  = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/python');
 
 foreach ($cursos as $curso){
-    echo $curso . PHP_EOL;
+    echo exibirCurso($curso);
 }
