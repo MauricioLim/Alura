@@ -6,10 +6,8 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use Symfony\Component\DomCrawler\Crawler;
 
-
 class Buscador
 {
-
     private $httpClient;
 
     private $crawler;
@@ -27,9 +25,10 @@ class Buscador
     /**
      * @param string $url
      * @return array
-     * @throws GuzzleException
+     * @throws \GuzzleHttp\Exception\RequestException
      */
-    public function buscar(string $url): array{
+    public function buscar(string $url): array
+    {
         $resposta = $this ->httpClient -> request('GET', $url);
 
         $html = $resposta -> getBody();
@@ -37,10 +36,9 @@ class Buscador
 
         $elementosCursos =  $this->crawler -> filter('span.card-curso__nome');
         $cursos = [];
-        foreach ($elementosCursos as $elemento){
+        foreach ($elementosCursos as $elemento) {
             $cursos[] = $elemento-> textContent;
         }
         return $cursos;
     }
-
 }

@@ -45,7 +45,26 @@
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/felixfbecker/advanced-json-rpc" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/microsoft/tolerant-php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/netresearch/jsonmapper" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/phan/phan" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/sabre/event" />
       <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/tysonandre/var_representation_polyfill" />
+      <excludeFolder url="file://$MODULE_DIR$/buscador-cursos-alura/vendor/webmozart/assert" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
