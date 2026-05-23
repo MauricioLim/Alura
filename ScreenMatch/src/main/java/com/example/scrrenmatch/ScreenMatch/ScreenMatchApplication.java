@@ -15,6 +15,8 @@ public class ScreenMatchApplication {
 		praticaStream.converteMaiuscula();
 		praticaStream.multiplaImpares();
 		praticaStream.removeDuplicata();
+		praticaStream.extraiPrimo();
+		praticaStream.extraiProduto();
 	}
 
 
