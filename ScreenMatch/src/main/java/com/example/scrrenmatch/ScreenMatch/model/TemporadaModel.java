@@ -1,0 +1,10 @@
+package com.example.scrrenmatch.ScreenMatch.model;
+
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record TemporadaModel(@JsonAlias("Season") Integer numero,
+                             @JsonAlias("Episodes") List<EpisodioModel> episodios) {
+}
